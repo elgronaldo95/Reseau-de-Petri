@@ -1,1 +1,3 @@
-# Reseau-de-Petri a ouvrir avec PNE edittor
+# Reseau-de-Petri 
+
+a ouvrire avec PNE editor
