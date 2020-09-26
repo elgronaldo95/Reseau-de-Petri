@@ -1,0 +1,67 @@
+t 95.0 655.0 {niveau B=niveau Bateau} 0 w n
+t 75.0 545.0 Attente 0 w n
+t 70.0 390.0 {Ouverture vanne B} 0 w n
+t 70.0 240.0 {Fermeture Porte B} 0 w n
+t 1215.0 580.0 {Attente 2} 0 w n
+t 1205.0 650.0 {Niveau A=Niveau Sortie} 0 w n
+t 1535.0 565.0 {Sortie Batteau} 0 w n
+p 65.0 310.0 p2 0 n
+p 60.0 465.0 p3 0 n
+p 170.0 605.0 p4 0 n
+p 575.0 570.0 p6 0 n
+p 770.0 545.0 p7 0 n
+p 940.0 545.0 p8 0 n
+p 1130.0 540.0 p9 0 n
+p 1345.0 625.0 p10 0 n
+p 1435.0 520.0 p11 0 n
+p 1525.0 420.0 p12 0 n
+p 70.0 175.0 p1 0 n
+t 275.0 635.0 {Fermeture Vanne B} 0 w n
+p 375.0 590.0 p5 0 n
+t 485.0 640.0 {Ouverture PorteA} 0 w n
+t 690.0 635.0 {Entrée Batteau} 0 w n
+t 860.0 625.0 {Fermeture Porte A} 0 w n
+t 1025.0 630.0 {Ouverture Vanne A} 0 w n
+t 1445.0 600.0 {Fermeture Vanne A} 0 w n
+t 65.0 80.0 {A fermé} 0 w n
+p 500.0 100.0 p0 0 n
+t 340.0 105.0 {Arrivé Bateau} 0 w n
+t 335.0 255.0 {A ouvert} 0 w n
+p 230.0 195.0 p14 0 n
+p 475.0 410.0 p15 0 n
+p 200.0 60.0 p13 0 n
+e {A fermé} p1 1 n
+e p15 0.9603046526 109.3846424 {Entrée Batteau} 0.3926116438 83.24061509 1 n
+e {A ouvert} p15 1 n
+e p14 {A ouvert} 1 n
+e {Arrivé Bateau} 0.488849512 57.14017851 p14 0.2712233521 82.73451517 1 n
+e p13 0.4089586741 86.82165628 {A fermé} 0.2854375894 54.34151268 1 n
+e {Arrivé Bateau} p13 1 n
+e {Sortie Batteau} p12 1 n
+e p11 {Sortie Batteau} 1 n
+e {Fermeture Vanne A} p11 1 n
+e p10 0.9428998744 51.26402247 {Fermeture Vanne A} 0.65251162 45.22167622 1 n
+e {Niveau A=Niveau Sortie} p10 1 n
+e {Attente 2} p10 1 n
+e p9 {Attente 2} 1 n
+e {Ouverture Vanne A} p9 1 n
+e p8 {Ouverture Vanne A} 1 n
+e {Fermeture Porte A} p8 1 n
+e {Entrée Batteau} p7 1 n
+e p7 {Fermeture Porte A} 1 n
+e {Ouverture PorteA} p6 1 n
+e p6 {Entrée Batteau} 1 n
+e p5 {Ouverture PorteA} 1 n
+e {Fermeture Vanne B} p5 1 n
+e p4 {Fermeture Vanne B} 1 n
+e {niveau B=niveau Bateau} p4 1 n
+e Attente p4 1 n
+e p3 Attente 1 n
+e {Ouverture vanne B} p3 1 n
+e p2 {Ouverture vanne B} 1 n
+e {Fermeture Porte B} p2 1 n
+e p1 {Fermeture Porte B} 1 n
+e p0 {Arrivé Bateau} 1 n
+h exercice7
+
+
